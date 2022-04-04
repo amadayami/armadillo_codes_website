@@ -1,6 +1,26 @@
 body{
     background-color: #ECECEC;
 }
+ul.nav_bar li{
+    display: inline;
+    list-style-type: style type none;
+    /* border: 1px solid #000; */
+    margin: 5px;
+    padding: 2px;
+}
 .nav_bar{
-    
+    display: block;
+    background-color: #BABABA;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    /* text-size-adjust: auto; 
+        this could be something useful when we get sizing set up*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    color: #000;
+}
+#nav_bar:hover{
+    color: blueviolet;
 }
