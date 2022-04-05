@@ -8,4 +8,5 @@ Biggest issue is deciding a side or a top bar since that will
 carry through the rest of the site.
 
 Would like to have my own page where I can make silly buttons.
-Could link it in the project page or from the home page.
+Could link it in the project page or from the home page. Josh says to use
+a horseshoe crab.
