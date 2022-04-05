@@ -1,24 +1,54 @@
 body{
     background-color: #ECECEC;
+    border-style: 1px solid #BABABA;
 }
-ul.nav_bar li{
+img{
+    width: 10%;
+    height: 10%;
+}
+header{
+    width: 100%;
+    padding: 0px 0;
+    position: top;
+    overflow: hidden;
+}
+header .content{
+    width: 1000px;
+    margin: auto;
+    display: inline;
+}
+.head_container{
+    border-bottom: 2px solid #BABABA;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.nav_bar li{
     display: inline;
     list-style-type: style type none;
-    /* border: 1px solid #000; */
     margin: 5px;
     padding: 2px;
 }
 .nav_bar{
-    display: block;
-    background-color: #BABABA;
-    text-align: center;
+    display:block;
+    text-align: left;
+    float: left;
+
+    background-color: red;
+}
+.logo{
+    float: left;
+    
+    background-color: yellow;
+}
+.contact_me{
+    float: right;
+    text-align: right;
+    
+    background-color: blue;
 }
 a{
     text-decoration: none;
-    /* text-size-adjust: auto; 
-        this could be something useful when we get sizing set up*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2vw;
     color: #000;
 }
 #nav_bar:hover{

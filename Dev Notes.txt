@@ -10,3 +10,8 @@ carry through the rest of the site.
 Would like to have my own page where I can make silly buttons.
 Could link it in the project page or from the home page. Josh says to use
 a horseshoe crab.
+
+To-Do List (April 5th):
+1. Get the divs to be evenly aligned. The logo box is much larger. They are in a div currently.
+Should see about making them 33% apiece. After can center the text in the nav section.
+2. Put the border on the bottom of the div. Problem with floating? Can I switch from a float for the child divs?
