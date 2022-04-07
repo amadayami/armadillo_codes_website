@@ -1,56 +1,39 @@
 body{
+    /* Possible colors: #ECECEC, black */
     background-color: #ECECEC;
-    border-style: 1px solid #BABABA;
-}
-img{
-    width: 10%;
-    height: 10%;
-}
-header{
-    width: 100%;
-    padding: 0px 0;
-    position: top;
-    overflow: hidden;
-}
-header .content{
-    width: 1000px;
-    margin: auto;
-    display: inline;
-}
-.head_container{
-    border-bottom: 2px solid #BABABA;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-}
-.nav_bar li{
-    display: inline;
-    list-style-type: style type none;
-    margin: 5px;
-    padding: 2px;
-}
-.nav_bar{
-    display:block;
-    text-align: left;
-    float: left;
-
-    background-color: red;
-}
-.logo{
-    float: left;
-    
-    background-color: yellow;
-}
-.contact_me{
-    float: right;
-    text-align: right;
-    
-    background-color: blue;
+    border: 1px solid #707e8d
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
-#nav_bar:hover{
-    color: blueviolet;
+a:hover{
+    color:rgb(45, 76, 109);
+}
+img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    padding: 0px 0px 0px 0px;
+}
+.head_container{
+    background-color: #707e8d;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+
+    display: flex;
+}
+.head_container > *{
+    flex-grow: 1;
+    flex-basis: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_me{
+    text-align: center;
 }
