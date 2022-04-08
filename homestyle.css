@@ -3,7 +3,7 @@
     src: url('whitrabt.ttf') format('truetype');
 }
 @font-face {
-    font-family: UbuntuTitle;
+    font-family: 'UbuntuTitle';
     src: url(Ubuntu-Title.ttf) format('truetype');
 }
 body{
@@ -12,7 +12,7 @@ body{
     border: 1px solid #707e8d
 }
 a{
-    font-family: 'UbuntuTitle';
+    font-family: 'WhiteRabbit','UbuntuTitle', Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
