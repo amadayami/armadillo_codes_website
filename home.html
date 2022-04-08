@@ -9,7 +9,8 @@
     </head>
     <header>
         <div class="logo">
-            <img src="IMG_5846.PNG">
+            <img src="image0.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+            
         </div>    
         <div class="head_container">
 
@@ -39,7 +40,12 @@
             </p>
         </div>
         <script>
-
+            function hover(element){
+                element.setAttribute('src', 'image1.png');
+            }
+            function unhover(element){
+                element.setAttribute('src', 'image0.png');
+            }
         </script>
     </body>
 </html>
