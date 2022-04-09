@@ -9,7 +9,7 @@
 body{
     /* Possible colors: #ECECEC, black */
     background-color: #ECECEC;
-    border: 1px solid #707e8d
+    /*border: 1px solid #707e8d*/
 }
 a{
     font-family: 'UbuntuTitle', Arial, Helvetica, sans-serif;
@@ -32,6 +32,9 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#webname{
+    padding-bottom: 10px;
 }
 .head_container{
     background-color: #707e8d;
