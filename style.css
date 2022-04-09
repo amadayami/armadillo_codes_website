@@ -90,6 +90,10 @@ img{
       background-color: #707e8d;
       color: rgb(255, 255, 255);
 }
+.fa-envelope{
+    background-color: #707e8d;
+    color: rgb(255, 255, 255);
+}
 
 /* Project page specific code here */
 .project_list{
